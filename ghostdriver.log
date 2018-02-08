@@ -1,0 +1,18 @@
+[INFO  - 2018-02-02T09:38:10.179Z] GhostDriver - Main - running on port 62702
+[INFO  - 2018-02-02T09:38:14.592Z] Session [ca8580a0-07fc-11e8-a57e-97479dddaba9] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36","webSecurityEnabled":true}
+[INFO  - 2018-02-02T09:38:14.592Z] Session [ca8580a0-07fc-11e8-a57e-97479dddaba9] - page.customHeaders:  - {}
+[INFO  - 2018-02-02T09:38:14.593Z] Session [ca8580a0-07fc-11e8-a57e-97479dddaba9] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"},"phantomjs.page.settings.userAgent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36"}
+[INFO  - 2018-02-02T09:38:14.593Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: ca8580a0-07fc-11e8-a57e-97479dddaba9
+[ERROR - 2018-02-02T09:38:50.741Z] Session [ca8580a0-07fc-11e8-a57e-97479dddaba9] - page.onError - msg: TypeError: undefined is not an object (evaluating 'bdo0x.addCallback')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-02T09:38:50.743Z] Session [ca8580a0-07fc-11e8-a57e-97479dddaba9] - page.onError - stack:
+  (anonymous function) (http://s3.music.126.net/web/s/core.js?2adf840caa7109e74a8a7a6d3329ab86:132)
+  forEach (:0)
+  bd0x (http://s3.music.126.net/web/s/core.js?2adf840caa7109e74a8a7a6d3329ab86:17)
+  (anonymous function) (http://s3.music.126.net/web/s/core.js?2adf840caa7109e74a8a7a6d3329ab86:132)
+  (anonymous function) (http://s3.music.126.net/web/s/core.js?2adf840caa7109e74a8a7a6d3329ab86:1)
+  QR4V (http://s3.music.126.net/web/s/core.js?2adf840caa7109e74a8a7a6d3329ab86:25)
+  (anonymous function) (http://s3.music.126.net/web/s/core.js?2adf840caa7109e74a8a7a6d3329ab86:1)
+
+  phantomjs://platform/console++.js:263 in error
